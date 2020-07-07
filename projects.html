@@ -7,25 +7,28 @@
 		<meta charset="utf-8">
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="icon" type="image/png" href="images/favicon.png"/>
-		<link rel="stylesheet" href="stylin.css">	
+		<link rel="stylesheet" href="general-style.css">	
+		<link rel="stylesheet" href="projects.css">
 	</head>
 
 	<body>
-		<div class = "entire-page">
+		<div class="entire-page">
 			<header>
 				<nav>
-					<ul class="navigation">
-						<li><a href="index.html">About</a></li>
-						<li><a href="projects.html">Projects</a></li>
+					<ul class="navigation-list">
+						<li class="navigation-elem"><a href="index.html">About</a></li>
+						<li class="navigation-elem"><a href="projects.html">Projects</a></li>
 					</ul>
 				</nav>
 			</header>
 
 			<h1>Projects</h1>
-			<h3 class = "not-bold">During holidays and quarantine I've built some personal projects for both fun and learning. Take a look at some of the code.</h2>
+
+			<p id="project-intro">
+				During holidays and quarantine I've built some personal projects for both fun and learning. Take a look at some of the code.
+			</p>
 			
-			<div class="container">	
+			<div class="flexbox-layout">	
 				<div>
 					<h2>Chess with AI</h2>
 					<a href="https://github.com/MarkLee7916/Chess-engine">
@@ -45,7 +48,21 @@
 					<a href="https://github.com/MarkLee7916/Text-Editor">
 						<img src="Images/Text-Editor.png" alt="Text Editor" height="430" width="400">
 					</a>
-				</div>				
+				</div>		
+
+				<div>
+					<h2>Visualiser For Sorting Algorithms</h2>
+					<a href="https://marklee7916.github.io/Sorting-Algorithm-Visualiser/sorting-vis.html">
+						<img src="Images/Sorting.png" alt="Screenshot of sorting vis" height="375" width="670">
+					</a>
+				</div>		
+
+				<div>
+					<h2>Tetris</h2>
+					<a href="https://github.com/MarkLee7916/Tetris">
+						<img src="Images/Tetris.png" alt="Screenshot of tetris" height="375" width="670">
+					</a>
+				</div>	
 			</div>
 
 			<footer class="bottom">
