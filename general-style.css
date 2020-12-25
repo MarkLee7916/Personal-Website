@@ -1,79 +1,76 @@
-.entire-page {
-	font-family: Helvetica-Neue, sans-serif;
-	background-image: linear-gradient(to right, #cfd9df, #e2ebf0);
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	overflow: auto;
+.page {
+  font-family: Helvetica-Neue, sans-serif;
+  background-image: linear-gradient(to right, #cfd9df, #e2ebf0);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
 }
 
 header {
-	background: black;
-	padding-top: 18px;
-	padding-bottom: 18px;
+  background: black;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 header::before,
 header::after {
-	content: ' ';
-	display: table;
-	clear: both;
+  content: " ";
+  display: table;
+  clear: both;
 }
 
 .navigation-list {
-	list-style: none;
-	padding-left: 180px;
+  list-style: none;
+  padding-left: 180px;
 }
 
 .navigation-elem {
-	display: inline;
-	padding: 20px;
-	font-size: 16px;
+  display: inline;
+  padding: 20px;
+  font-size: 16px;
 }
 
-.navigation-elem>a {
-	color: white;
+.navigation-elem > a {
+  color: white;
 }
 
-.flexbox-layout {
-	display: flex;
-	flex-wrap: wrap;
+.one-item-per-page {
+  text-align: center;
 }
 
-.flexbox-layout>* {
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 20px;
+.project {
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 .centered-layout {
-	margin-left: 200px;
-	margin-right: 200px;
+  text-align: center;
 }
 
 h1,
 h2,
 h3 {
-	text-align: center;
+  text-align: center;
 }
 
 a {
-	color: black;
-	text-decoration: none
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 .bottom {
-	position: fixed;
-	bottom: 0;
-	padding-left: 50%;
-	padding-bottom: 20px;
-	font-size: 36px;
+  position: fixed;
+  bottom: 0;
+  padding-left: 50%;
+  padding-bottom: 20px;
+  font-size: 36px;
 }
