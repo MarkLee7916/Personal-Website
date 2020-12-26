@@ -39,15 +39,6 @@ header::after {
   color: white;
 }
 
-.one-item-per-page {
-  text-align: center;
-}
-
-.project {
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
 .centered-layout {
   text-align: center;
 }
